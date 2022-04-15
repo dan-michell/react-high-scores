@@ -1,10 +1,15 @@
 import React, { useState } from "react";
+import "./playerScore.css";
 
 function PlayerScore(props) {
   return (
     <div className="student-score">
-      <p>{props.name}</p>
-      <p>{props.score}</p>
+      <div className="student-info">
+        <p>{props.name}:</p>
+      </div>
+      <div className="student-info">
+        <p>{props.score}</p>
+      </div>
     </div>
   );
 }

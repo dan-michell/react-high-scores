@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PlayerScore from "./PlayerScore";
+import "./highScoreTable.css";
 
 function HighScoreTable(props) {
   function generateStudentScores() {

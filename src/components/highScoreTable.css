@@ -1,0 +1,8 @@
+.score-table {
+  width: 40%;
+  border: 5px dashed black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

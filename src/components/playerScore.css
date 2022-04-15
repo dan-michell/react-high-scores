@@ -1,0 +1,11 @@
+.student-score {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+}
+
+.student-info {
+  width: 50%;
+  text-align: end;
+  padding-right: 20px;
+}
